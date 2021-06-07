@@ -4,10 +4,10 @@ import codecs
 
 argumentList = sys.argv[1:]
 
-consumer_key = 'Rxo5nyfVZriRliNe0hLoo1KFU'
-consumer_secret = '5xyiTPIQ6CwvGcG44Gk93UedmbbeBKLIFyQrRPJw1SbfINWXcJ'
-access_token = '749528490274353152-0yzSBWFxgBBVR7n7Wh4cC2xiu6a8xEx'
-access_token_secret = 'uFlp4rUNDPUX9U9NOtEokXzpZnAyqIwYRRGgBzS5MSUjL'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_token_secret = ''
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
